@@ -23,6 +23,9 @@ function isYourBirthdayLucky() {
     {
         outputBox.innerText = "please enter positive value"
     }
+    else if(lucky1 == ""){
+        outputBox.innerText = "please input both the boxes"
+    }
     else{
     if (sum && dob)
         compareValue(sum, lucky1)
